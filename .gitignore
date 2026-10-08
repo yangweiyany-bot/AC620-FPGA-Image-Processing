@@ -211,6 +211,18 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# Quartus II generated files
+# Keep project sources and settings (.qpf, .qsf, .sdc, .v) under version control.
+fpga/quartus/db/
+fpga/quartus/incremental_db/
+fpga/quartus/output_files/
+fpga/quartus/simulation/modelsim/
+fpga/quartus/*.qws
+
+# PC tool runtime inputs and generated test results
+pc_tool/input/
+pc_tool/output/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
